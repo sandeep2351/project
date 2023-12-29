@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url();
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        #userDetails {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #displayDetails {
+            margin-top: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="userDetails">
+        <h2>Enter Your Details</h2>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="email" placeholder="Email">
+        <button onclick="displayUserDetails()">Submit</button>
+    </div>
+
+    <div id="displayDetails">
+        <h2>User Details</h2>
+        <p><strong>Name:</strong> <span id="displayedName"></span></p>
+        <p><strong>Email:</strong> <span id="displayedEmail"></span></p>
+    </div>
+
+    <script>
+        function displayUserDetails() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+
+            document.getElementById('displayedName').textContent = name;
+            document.getElementById('displayedEmail').textContent = email;
+
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+        }
+    </script>
+</body>
+</html>
