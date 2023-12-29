@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.glitch.global/79575dbb-6bca-4c8f-b0e5-17e68a47f8a0/464b36fc-687d-4797-a54d-952501b6fc20.image.png?v=1693325120664");
+    background-size: cover;
+  background-repeat:no-repeat;
+  width:100%;
+  height:100vh;
+    background-position: center;
+  }
+  
+  header {
+    color:white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size:25px
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: -0.3rem;
+  }
+  
+  .destination {
+    border: 1px solid #ccc;
+    width:200px;
+    border-radius: 5px;
+    margin: -0.2rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:white;
+  }
+  
+  .destination img {
+    max-width: 95%;
+    height: auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    color: #fff;
+  }
+  a{
+    text-decoration: none;
+    color:white;
+  }
+  a:hover{
+    color:rgb(10, 14, 17);
+  }
+
+  
