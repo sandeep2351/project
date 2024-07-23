@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://cdn.glitch.global/890f1ae2-f5fc-40fd-b376-5337bbc8183d/paper.jpg.jpg?v=1693303734325");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    position:fixed;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    width:85%;
+    padding: 35px 0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 700px;
+    float:right;
+    position:fixed;
+}
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 20px;
+    position:relative;
+    margin-right: 10px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#080707;
+    text-transform: uppercase;
+   margin-top: 10%;
+   
+}
+.navbar ul li::after{
+    content:"";
+    height:3px;
+    width:0;
+    background: black;
+    position:absolute;
+    left:0;
+    bottom:-5px;
+    transition:0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+
+}
+
+
+.content {
+    text-align: left;
+    padding: 100px 0;
+    margin-left: 100px;
+    margin-top: 20%;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 100px;
+    color:#26B209;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+select {
+    width: 270px;
+    height:35px;
+    border-radius: 5px;
+}
+
+.content span {
+    color: #ff9800;
+}
+
+.content .par {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.form {
+    width: 250px;
+    height:200px;
+    padding: 25px;
+    padding-right: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    top:200px;
+    left:930px;
+    position:absolute;
+}
+
+.form h2 {
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #ff9800;
+}
+
+.form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.button{
+    margin-left: 100px;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #ff9800;
+    
+}
+.logo{
+    margin-top: 8%;
+    margin-left: 0%;
+    width:250px;
+    height: 250px;
+    position:fixed;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.glitch.global/3064b09d-40b3-4efe-81a0-d32368318fb7/pexels-iilushk-17991038.jpg?v=1693312753667");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  header {
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 400;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .destination {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .destination img {
+    max-width: 100%;
+    height: auto;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    color: #fff;
+  }
+  
+
+  
